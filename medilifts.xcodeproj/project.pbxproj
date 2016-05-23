@@ -7,15 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		090C071D1CD9E84800F6DB5A /* MLParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090C071C1CD9E84800F6DB5A /* MLParentViewController.m */; };
+		090C071F1CD9FFAC00F6DB5A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090C071E1CD9FFAC00F6DB5A /* MessageUI.framework */; };
+		0910BE7B1CED8E5700696A13 /* MAReferFriendFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0910BE7A1CED8E5700696A13 /* MAReferFriendFooterView.m */; };
 		0914C30A1CC2197800D26652 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0914C3091CC2197800D26652 /* main.m */; };
 		0914C30D1CC2197800D26652 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0914C30C1CC2197800D26652 /* AppDelegate.m */; };
-		0914C3101CC2197800D26652 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0914C30F1CC2197800D26652 /* ViewController.m */; };
 		0914C3131CC2197800D26652 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0914C3111CC2197800D26652 /* Main.storyboard */; };
 		0914C3161CC2197800D26652 /* medilifts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0914C3141CC2197800D26652 /* medilifts.xcdatamodeld */; };
 		0914C3181CC2197800D26652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0914C3171CC2197800D26652 /* Assets.xcassets */; };
 		0914C31B1CC2197800D26652 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0914C3191CC2197800D26652 /* LaunchScreen.storyboard */; };
 		0914C3261CC2197800D26652 /* mediliftsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0914C3251CC2197800D26652 /* mediliftsTests.m */; };
 		0914C3311CC2197800D26652 /* mediliftsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0914C3301CC2197800D26652 /* mediliftsUITests.m */; };
+		0916582A1CD903C90008BF55 /* MAKeyboardAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 091658291CD903C90008BF55 /* MAKeyboardAccessoryView.m */; };
+		0916582D1CD90FD50008BF55 /* MAMyPlanConfirmationFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0916582C1CD90FD50008BF55 /* MAMyPlanConfirmationFooterView.m */; };
+		091658301CD9115C0008BF55 /* MAToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 0916582F1CD9115C0008BF55 /* MAToast.m */; };
+		091658331CD912A80008BF55 /* WPTextButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 091658321CD912A80008BF55 /* WPTextButton.m */; };
+		09340C3F1CC3F1FF001F645F /* MAUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 09340C3E1CC3F1FF001F645F /* MAUtility.m */; };
+		094E57501CD71F340085FB63 /* MATextFieldTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 094E574F1CD71F340085FB63 /* MATextFieldTitleCell.m */; };
+		094E57531CD71F9C0085FB63 /* MATextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 094E57521CD71F9C0085FB63 /* MATextField.m */; };
+		094E575B1CD721880085FB63 /* MATextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 094E575A1CD721880085FB63 /* MATextViewCell.m */; };
+		094E575E1CD722400085FB63 /* MATextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 094E575D1CD722400085FB63 /* MATextView.m */; };
+		094E57641CD723A60085FB63 /* MANewServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 094E57631CD723A60085FB63 /* MANewServiceRequest.m */; };
+		09694BA11CDA68B600A9EE96 /* MAProgessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09694BA01CDA68B600A9EE96 /* MAProgessView.m */; };
+		096F28E31CD6283900B3C4D5 /* MLTabBarControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096F28E21CD6283900B3C4D5 /* MLTabBarControllerViewController.m */; };
+		096F28E91CD6298100B3C4D5 /* MLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096F28E81CD6298100B3C4D5 /* MLHomeViewController.m */; };
+		096F28ED1CD6299B00B3C4D5 /* MLServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096F28EC1CD6299B00B3C4D5 /* MLServicesViewController.m */; };
+		096F28F11CD629BB00B3C4D5 /* MLPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096F28F01CD629BB00B3C4D5 /* MLPaymentViewController.m */; };
+		096F28F51CD629D900B3C4D5 /* MLContactUSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096F28F41CD629D900B3C4D5 /* MLContactUSViewController.m */; };
+		096F28F91CD64A6500B3C4D5 /* MLHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 096F28F81CD64A6500B3C4D5 /* MLHeaderView.m */; };
+		096F28FE1CD653E300B3C4D5 /* MLContactUsDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 096F28FD1CD653E300B3C4D5 /* MLContactUsDataObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +56,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		090C071B1CD9E84700F6DB5A /* MLParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLParentViewController.h; sourceTree = "<group>"; };
+		090C071C1CD9E84800F6DB5A /* MLParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLParentViewController.m; sourceTree = "<group>"; };
+		090C071E1CD9FFAC00F6DB5A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		0910BE791CED8E5700696A13 /* MAReferFriendFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAReferFriendFooterView.h; sourceTree = "<group>"; };
+		0910BE7A1CED8E5700696A13 /* MAReferFriendFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAReferFriendFooterView.m; sourceTree = "<group>"; };
 		0914C3051CC2197800D26652 /* medilifts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = medilifts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0914C3091CC2197800D26652 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0914C30B1CC2197800D26652 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0914C30C1CC2197800D26652 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0914C30E1CC2197800D26652 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0914C30F1CC2197800D26652 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0914C3121CC2197800D26652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0914C3151CC2197800D26652 /* medilifts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = medilifts.xcdatamodel; sourceTree = "<group>"; };
 		0914C3171CC2197800D26652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +76,44 @@
 		0914C32C1CC2197800D26652 /* mediliftsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mediliftsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0914C3301CC2197800D26652 /* mediliftsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mediliftsUITests.m; sourceTree = "<group>"; };
 		0914C3321CC2197800D26652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		091658281CD903C90008BF55 /* MAKeyboardAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAKeyboardAccessoryView.h; sourceTree = "<group>"; };
+		091658291CD903C90008BF55 /* MAKeyboardAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAKeyboardAccessoryView.m; sourceTree = "<group>"; };
+		0916582B1CD90FD50008BF55 /* MAMyPlanConfirmationFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMyPlanConfirmationFooterView.h; sourceTree = "<group>"; };
+		0916582C1CD90FD50008BF55 /* MAMyPlanConfirmationFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAMyPlanConfirmationFooterView.m; sourceTree = "<group>"; };
+		0916582E1CD9115C0008BF55 /* MAToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAToast.h; sourceTree = "<group>"; };
+		0916582F1CD9115C0008BF55 /* MAToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAToast.m; sourceTree = "<group>"; };
+		091658311CD912A80008BF55 /* WPTextButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTextButton.h; sourceTree = "<group>"; };
+		091658321CD912A80008BF55 /* WPTextButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPTextButton.m; sourceTree = "<group>"; };
+		09340C3B1CC3F16C001F645F /* MLStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLStyle.h; sourceTree = "<group>"; };
+		09340C3D1CC3F1FF001F645F /* MAUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAUtility.h; sourceTree = "<group>"; };
+		09340C3E1CC3F1FF001F645F /* MAUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAUtility.m; sourceTree = "<group>"; };
+		094E574E1CD71F340085FB63 /* MATextFieldTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MATextFieldTitleCell.h; sourceTree = "<group>"; };
+		094E574F1CD71F340085FB63 /* MATextFieldTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MATextFieldTitleCell.m; sourceTree = "<group>"; };
+		094E57511CD71F9C0085FB63 /* MATextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MATextField.h; sourceTree = "<group>"; };
+		094E57521CD71F9C0085FB63 /* MATextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MATextField.m; sourceTree = "<group>"; };
+		094E57591CD721880085FB63 /* MATextViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MATextViewCell.h; sourceTree = "<group>"; };
+		094E575A1CD721880085FB63 /* MATextViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MATextViewCell.m; sourceTree = "<group>"; };
+		094E575C1CD722400085FB63 /* MATextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MATextView.h; sourceTree = "<group>"; };
+		094E575D1CD722400085FB63 /* MATextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MATextView.m; sourceTree = "<group>"; };
+		094E57621CD723A60085FB63 /* MANewServiceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MANewServiceRequest.h; sourceTree = "<group>"; };
+		094E57631CD723A60085FB63 /* MANewServiceRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MANewServiceRequest.m; sourceTree = "<group>"; };
+		09694B9F1CDA68B600A9EE96 /* MAProgessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAProgessView.h; sourceTree = "<group>"; };
+		09694BA01CDA68B600A9EE96 /* MAProgessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAProgessView.m; sourceTree = "<group>"; };
+		096F28E11CD6283900B3C4D5 /* MLTabBarControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLTabBarControllerViewController.h; sourceTree = "<group>"; };
+		096F28E21CD6283900B3C4D5 /* MLTabBarControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLTabBarControllerViewController.m; sourceTree = "<group>"; };
+		096F28E71CD6298100B3C4D5 /* MLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLHomeViewController.h; sourceTree = "<group>"; };
+		096F28E81CD6298100B3C4D5 /* MLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLHomeViewController.m; sourceTree = "<group>"; };
+		096F28EB1CD6299B00B3C4D5 /* MLServicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLServicesViewController.h; sourceTree = "<group>"; };
+		096F28EC1CD6299B00B3C4D5 /* MLServicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLServicesViewController.m; sourceTree = "<group>"; };
+		096F28EF1CD629BB00B3C4D5 /* MLPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPaymentViewController.h; sourceTree = "<group>"; };
+		096F28F01CD629BB00B3C4D5 /* MLPaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPaymentViewController.m; sourceTree = "<group>"; };
+		096F28F31CD629D900B3C4D5 /* MLContactUSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLContactUSViewController.h; sourceTree = "<group>"; };
+		096F28F41CD629D900B3C4D5 /* MLContactUSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLContactUSViewController.m; sourceTree = "<group>"; };
+		096F28F71CD64A6500B3C4D5 /* MLHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLHeaderView.h; sourceTree = "<group>"; };
+		096F28F81CD64A6500B3C4D5 /* MLHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLHeaderView.m; sourceTree = "<group>"; };
+		096F28FA1CD64AE800B3C4D5 /* MAConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAConstants.h; sourceTree = "<group>"; };
+		096F28FC1CD653E300B3C4D5 /* MLContactUsDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLContactUsDataObject.h; sourceTree = "<group>"; };
+		096F28FD1CD653E300B3C4D5 /* MLContactUsDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLContactUsDataObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				090C071F1CD9FFAC00F6DB5A /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,9 +142,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		090C07201CDA0B3700F6DB5A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		0914C2FC1CC2197800D26652 = {
 			isa = PBXGroup;
 			children = (
+				090C071E1CD9FFAC00F6DB5A /* MessageUI.framework */,
 				0914C3071CC2197800D26652 /* medilifts */,
 				0914C3241CC2197800D26652 /* mediliftsTests */,
 				0914C32F1CC2197800D26652 /* mediliftsUITests */,
@@ -103,10 +173,13 @@
 		0914C3071CC2197800D26652 /* medilifts */ = {
 			isa = PBXGroup;
 			children = (
-				0914C30B1CC2197800D26652 /* AppDelegate.h */,
-				0914C30C1CC2197800D26652 /* AppDelegate.m */,
-				0914C30E1CC2197800D26652 /* ViewController.h */,
-				0914C30F1CC2197800D26652 /* ViewController.m */,
+				090C07201CDA0B3700F6DB5A /* Images */,
+				09340C401CC3F8A5001F645F /* UI */,
+				096F28FB1CD653BD00B3C4D5 /* Contact Data Object */,
+				09694B9E1CDA161600A9EE96 /* Helper Classes */,
+				09340C3C1CC3F1CE001F645F /* Utility Classes */,
+				09340C3A1CC3F149001F645F /* Style */,
+				0914C33E1CC219A500D26652 /* App Delegate */,
 				0914C3111CC2197800D26652 /* Main.storyboard */,
 				0914C3171CC2197800D26652 /* Assets.xcassets */,
 				0914C3191CC2197800D26652 /* LaunchScreen.storyboard */,
@@ -141,6 +214,140 @@
 				0914C3321CC2197800D26652 /* Info.plist */,
 			);
 			path = mediliftsUITests;
+			sourceTree = "<group>";
+		};
+		0914C33E1CC219A500D26652 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				0914C30B1CC2197800D26652 /* AppDelegate.h */,
+				0914C30C1CC2197800D26652 /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		09340C3A1CC3F149001F645F /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				09340C3B1CC3F16C001F645F /* MLStyle.h */,
+			);
+			name = Style;
+			sourceTree = "<group>";
+		};
+		09340C3C1CC3F1CE001F645F /* Utility Classes */ = {
+			isa = PBXGroup;
+			children = (
+				096F28FA1CD64AE800B3C4D5 /* MAConstants.h */,
+				09340C3D1CC3F1FF001F645F /* MAUtility.h */,
+				09340C3E1CC3F1FF001F645F /* MAUtility.m */,
+			);
+			name = "Utility Classes";
+			sourceTree = "<group>";
+		};
+		09340C401CC3F8A5001F645F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				096F28F61CD64A2500B3C4D5 /* HeaderView */,
+				096F28F21CD629BF00B3C4D5 /* ContactUs */,
+				096F28EE1CD6299F00B3C4D5 /* Payment */,
+				096F28EA1CD6298800B3C4D5 /* Services */,
+				096F28E61CD6296700B3C4D5 /* Home */,
+				096F28E41CD6289700B3C4D5 /* TabBar Container */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		09694B9E1CDA161600A9EE96 /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				09694B9F1CDA68B600A9EE96 /* MAProgessView.h */,
+				09694BA01CDA68B600A9EE96 /* MAProgessView.m */,
+				091658311CD912A80008BF55 /* WPTextButton.h */,
+				091658321CD912A80008BF55 /* WPTextButton.m */,
+				0916582E1CD9115C0008BF55 /* MAToast.h */,
+				0916582F1CD9115C0008BF55 /* MAToast.m */,
+				0916582B1CD90FD50008BF55 /* MAMyPlanConfirmationFooterView.h */,
+				0916582C1CD90FD50008BF55 /* MAMyPlanConfirmationFooterView.m */,
+				091658281CD903C90008BF55 /* MAKeyboardAccessoryView.h */,
+				091658291CD903C90008BF55 /* MAKeyboardAccessoryView.m */,
+				094E57621CD723A60085FB63 /* MANewServiceRequest.h */,
+				094E57631CD723A60085FB63 /* MANewServiceRequest.m */,
+				094E575C1CD722400085FB63 /* MATextView.h */,
+				094E575D1CD722400085FB63 /* MATextView.m */,
+				094E57591CD721880085FB63 /* MATextViewCell.h */,
+				094E575A1CD721880085FB63 /* MATextViewCell.m */,
+				094E57511CD71F9C0085FB63 /* MATextField.h */,
+				094E57521CD71F9C0085FB63 /* MATextField.m */,
+				094E574E1CD71F340085FB63 /* MATextFieldTitleCell.h */,
+				094E574F1CD71F340085FB63 /* MATextFieldTitleCell.m */,
+			);
+			name = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		096F28E41CD6289700B3C4D5 /* TabBar Container */ = {
+			isa = PBXGroup;
+			children = (
+				096F28E11CD6283900B3C4D5 /* MLTabBarControllerViewController.h */,
+				096F28E21CD6283900B3C4D5 /* MLTabBarControllerViewController.m */,
+			);
+			name = "TabBar Container";
+			sourceTree = "<group>";
+		};
+		096F28E61CD6296700B3C4D5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				096F28E71CD6298100B3C4D5 /* MLHomeViewController.h */,
+				096F28E81CD6298100B3C4D5 /* MLHomeViewController.m */,
+				090C071B1CD9E84700F6DB5A /* MLParentViewController.h */,
+				090C071C1CD9E84800F6DB5A /* MLParentViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		096F28EA1CD6298800B3C4D5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				096F28EB1CD6299B00B3C4D5 /* MLServicesViewController.h */,
+				096F28EC1CD6299B00B3C4D5 /* MLServicesViewController.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		096F28EE1CD6299F00B3C4D5 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				096F28EF1CD629BB00B3C4D5 /* MLPaymentViewController.h */,
+				096F28F01CD629BB00B3C4D5 /* MLPaymentViewController.m */,
+			);
+			name = Payment;
+			sourceTree = "<group>";
+		};
+		096F28F21CD629BF00B3C4D5 /* ContactUs */ = {
+			isa = PBXGroup;
+			children = (
+				096F28F31CD629D900B3C4D5 /* MLContactUSViewController.h */,
+				096F28F41CD629D900B3C4D5 /* MLContactUSViewController.m */,
+			);
+			name = ContactUs;
+			sourceTree = "<group>";
+		};
+		096F28F61CD64A2500B3C4D5 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				0910BE791CED8E5700696A13 /* MAReferFriendFooterView.h */,
+				0910BE7A1CED8E5700696A13 /* MAReferFriendFooterView.m */,
+				096F28F71CD64A6500B3C4D5 /* MLHeaderView.h */,
+				096F28F81CD64A6500B3C4D5 /* MLHeaderView.m */,
+			);
+			name = HeaderView;
+			sourceTree = "<group>";
+		};
+		096F28FB1CD653BD00B3C4D5 /* Contact Data Object */ = {
+			isa = PBXGroup;
+			children = (
+				096F28FC1CD653E300B3C4D5 /* MLContactUsDataObject.h */,
+				096F28FD1CD653E300B3C4D5 /* MLContactUsDataObject.m */,
+			);
+			name = "Contact Data Object";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +417,7 @@
 				TargetAttributes = {
 					0914C3041CC2197800D26652 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = BL9SBH2Z92;
 					};
 					0914C3201CC2197800D26652 = {
 						CreatedOnToolsVersion = 7.3;
@@ -273,10 +481,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0914C3101CC2197800D26652 /* ViewController.m in Sources */,
+				0916582D1CD90FD50008BF55 /* MAMyPlanConfirmationFooterView.m in Sources */,
+				096F28F51CD629D900B3C4D5 /* MLContactUSViewController.m in Sources */,
+				096F28E31CD6283900B3C4D5 /* MLTabBarControllerViewController.m in Sources */,
+				094E57641CD723A60085FB63 /* MANewServiceRequest.m in Sources */,
+				09340C3F1CC3F1FF001F645F /* MAUtility.m in Sources */,
+				096F28F11CD629BB00B3C4D5 /* MLPaymentViewController.m in Sources */,
+				096F28E91CD6298100B3C4D5 /* MLHomeViewController.m in Sources */,
+				091658301CD9115C0008BF55 /* MAToast.m in Sources */,
+				09694BA11CDA68B600A9EE96 /* MAProgessView.m in Sources */,
+				094E575E1CD722400085FB63 /* MATextView.m in Sources */,
+				091658331CD912A80008BF55 /* WPTextButton.m in Sources */,
+				094E57531CD71F9C0085FB63 /* MATextField.m in Sources */,
 				0914C30D1CC2197800D26652 /* AppDelegate.m in Sources */,
+				094E57501CD71F340085FB63 /* MATextFieldTitleCell.m in Sources */,
 				0914C30A1CC2197800D26652 /* main.m in Sources */,
+				096F28ED1CD6299B00B3C4D5 /* MLServicesViewController.m in Sources */,
+				096F28FE1CD653E300B3C4D5 /* MLContactUsDataObject.m in Sources */,
+				090C071D1CD9E84800F6DB5A /* MLParentViewController.m in Sources */,
+				0910BE7B1CED8E5700696A13 /* MAReferFriendFooterView.m in Sources */,
+				094E575B1CD721880085FB63 /* MATextViewCell.m in Sources */,
+				096F28F91CD64A6500B3C4D5 /* MLHeaderView.m in Sources */,
 				0914C3161CC2197800D26652 /* medilifts.xcdatamodeld in Sources */,
+				0916582A1CD903C90008BF55 /* MAKeyboardAccessoryView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +646,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = medilifts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gronical.medilifts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,7 +659,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = medilifts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gronical.medilifts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -502,6 +733,7 @@
 				0914C3371CC2197800D26652 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0914C3381CC2197800D26652 /* Build configuration list for PBXNativeTarget "mediliftsTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +742,7 @@
 				0914C33A1CC2197800D26652 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0914C33B1CC2197800D26652 /* Build configuration list for PBXNativeTarget "mediliftsUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +751,7 @@
 				0914C33D1CC2197800D26652 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

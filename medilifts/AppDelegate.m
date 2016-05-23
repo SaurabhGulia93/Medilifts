@@ -7,6 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "MLStyle.h"
+#import "MLHomeViewController.h"
+#import "MLServicesViewController.h"
+#import "MLPaymentViewController.h"
+#import "MLContactUSViewController.h"
+#import "MLTabBarControllerViewController.h"
 
 @interface AppDelegate ()
 
@@ -14,10 +20,65 @@
 
 @implementation AppDelegate
 
+@synthesize tabBarController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [[UINavigationBar appearance] setBarTintColor:kRedColor];
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    [[UINavigationBar appearance] setTranslucent:NO];
+
+    NSDictionary *dict = @{NSForegroundColorAttributeName : [UIColor whiteColor],
+                           NSFontAttributeName : kNavBarTitleFont};
+    
+    [[UINavigationBar appearance] setTitleTextAttributes:dict];
+    
+    [[UITabBar appearance] setTintColor:kWhiteColor];
+    [[UITabBar appearance] setBarTintColor:kRedColor];
+    
+    dict = @{NSFontAttributeName : MEDIUM(14.0)};
+    [[UIBarButtonItem appearance] setTitleTextAttributes:dict forState:UIControlStateNormal];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    self.tabBarController = [[MLTabBarControllerViewController alloc] init];
+    
+    
+    MLHomeViewController *hometViewController = [[MLHomeViewController alloc] init];
+    UIImage *image1 = [UIImage imageNamed:@"home"];
+    [image1 imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+    UITabBarItem *firstItem = [[UITabBarItem alloc] initWithTitle:@"Home" image:image1 tag:0];
+    hometViewController.tabBarItem = firstItem;
+    
+    MLServicesViewController *secondViewController = [[MLServicesViewController alloc] init];
+    UIImage *image2 = [UIImage imageNamed:@"auto-paint-service"];
+    [image2 imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UITabBarItem *secondItem = [[UITabBarItem alloc] initWithTitle:@"Service" image:image2 tag:0];
+    secondViewController.tabBarItem = secondItem;
+    
+    MLPaymentViewController *thirdViewController = [[MLPaymentViewController alloc] init];
+    UIImage *image3 = [UIImage imageNamed:@"credit-card"];
+    [image3 imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UITabBarItem *thirdItem = [[UITabBarItem alloc] initWithTitle:@"Payment" image:image3 tag:0];
+    thirdViewController.tabBarItem = thirdItem;
+    
+    MLContactUSViewController *fourthViewController = [[MLContactUSViewController alloc] init];
+    UIImage *image4 = [UIImage imageNamed:@"phone-contact"];
+    [image4 imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UITabBarItem *fourthItem = [[UITabBarItem alloc] initWithTitle:@"Contact Us" image:image4 tag:0];
+    fourthViewController.tabBarItem = fourthItem;
+    
+    UINavigationController *navVC1 = [[UINavigationController alloc] initWithRootViewController:hometViewController];
+    UINavigationController *navVC2 = [[UINavigationController alloc] initWithRootViewController:secondViewController];
+    UINavigationController *navVC3 = [[UINavigationController alloc] initWithRootViewController:thirdViewController];
+    UINavigationController *navVC4 = [[UINavigationController alloc] initWithRootViewController:fourthViewController];
+    
+    tabBarController.viewControllers = @[navVC1, navVC2, navVC3, navVC4];
+    
+    self.window.rootViewController = self.tabBarController;
+    [self.window makeKeyAndVisible];
     return YES;
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
